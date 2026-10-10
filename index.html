@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaCart — 3D Smart Store</title>
+    <meta
+      name="description"
+      content="Shop premium smart products with 3D style visuals, immersive storytelling, and modern comfort."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <div class="brand-block">
+            <div class="brand-mark">N</div>
+            <span>NovaCart</span>
+          </div>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#shop">Shop</a>
+            <a href="#features">Features</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#support">Support</a>
+          </nav>
+
+          <div class="nav-actions">
+            <button class="ghost-btn">Sign in</button>
+            <button class="primary-btn">Cart (2)</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">New Collection 2026</span>
+              <h1>Design the future with immersive tech.</h1>
+              <p>
+                Discover premium products engineered for sound, motion, comfort,
+                and everyday elegance — all wrapped in a 3D-first shopping
+                experience.
+              </p>
+
+              <div class="hero-actions">
+                <button class="primary-btn large">Shop now</button>
+                <button class="secondary-btn large">Explore range</button>
+              </div>
+
+              <ul class="hero-stats">
+                <li>
+                  <strong>12k+</strong>
+                  <span>Happy customers</span>
+                </li>
+                <li>
+                  <strong>4.9/5</strong>
+                  <span>Average rating</span>
+                </li>
+                <li>
+                  <strong>2-day</strong>
+                  <span>Fast delivery</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Featured product display">
+              <div class="floating-card card-top">
+                <span class="mini-tag">Best seller</span>
+                <h3>Nova Pulse</h3>
+                <p>High-fidelity audio</p>
+              </div>
+
+              <div class="product-showcase">
+                <div class="glow-orb"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=80"
+                  alt="Premium wireless headphones"
+                />
+              </div>
+
+              <div class="floating-card card-bottom">
+                <div>
+                  <span class="price-label">From</span>
+                  <strong>$299</strong>
+                </div>
+                <button class="tiny-btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-bar">
+          <div class="container trust-row">
+            <span>Trusted by</span>
+            <div class="brands">
+              <span>TechWave</span>
+              <span>Zenith</span>
+              <span>PixelForge</span>
+              <span>Northstar</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="shop" class="products">
+          <div class="container section-heading">
+            <div>
+              <span class="eyebrow">Curated picks</span>
+              <h2>Popular products</h2>
+            </div>
+            <button class="ghost-btn">View all</button>
+          </div>
+
+          <div class="container product-grid">
+            <article class="product-card" data-tilt>
+              <div class="badge">New</div>
+              <div class="product-image image-one">
+                <img
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80"
+                  alt="Sport sneaker"
+                />
+              </div>
+              <div class="product-details">
+                <div class="meta-row">
+                  <span class="category">Footwear</span>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <h3>Aero Run X</h3>
+                <p>Lightweight motion with a hyper-flex sole and premium knit upper.</p>
+                <div class="bottom-row">
+                  <strong>$189</strong>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tilt>
+              <div class="badge hot">Hot</div>
+              <div class="product-image image-two">
+                <img
+                  src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=700&q=80"
+                  alt="Smart speaker"
+                />
+              </div>
+              <div class="product-details">
+                <div class="meta-row">
+                  <span class="category">Audio</span>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <h3>Orbit Mini</h3>
+                <p>Room-filling sound, voice assistant, and a sculpted circular design.</p>
+                <div class="bottom-row">
+                  <strong>$149</strong>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tilt>
+              <div class="badge">Pro</div>
+              <div class="product-image image-three">
+                <img
+                  src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80"
+                  alt="Smart watch"
+                />
+              </div>
+              <div class="product-details">
+                <div class="meta-row">
+                  <span class="category">Wearables</span>
+                  <span class="rating">★ 5.0</span>
+                </div>
+                <h3>Vertex Watch</h3>
+                <p>Health tracking, deep sleep insights, and ultra-light titanium frame.</p>
+                <div class="bottom-row">
+                  <strong>$249</strong>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-tilt>
+              <div class="badge">Limited</div>
+              <div class="product-image image-four">
+                <img
+                  src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80"
+                  alt="Modern chair"
+                />
+              </div>
+              <div class="product-details">
+                <div class="meta-row">
+                  <span class="category">Home</span>
+                  <span class="rating">★ 4.7</span>
+                </div>
+                <h3>Halo Lounge</h3>
+                <p>Comfort-forward seating for focused work and effortless relaxation.</p>
+                <div class="bottom-row">
+                  <strong>$399</strong>
+                  <button>Add to cart</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="features" class="features">
+          <div class="container section-heading slim">
+            <div>
+              <span class="eyebrow">Why choose us</span>
+              <h2>Everything built for a premium digital shopping journey.</h2>
+            </div>
+          </div>
+
+          <div class="container feature-grid">
+            <div class="feature-card">
+              <div class="feature-icon">✦</div>
+              <h3>Immersive discovery</h3>
+              <p>Layered visuals and product motion help every item feel premium and tactile.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Fast fulfillment</h3>
+              <p>Smart inventory, express shipping, and real-time support keep the experience smooth.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🔒</div>
+              <h3>Trusted checkout</h3>
+              <p>Encrypted transactions and flexible payment options ensure a safe shopping flow.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+          <div class="container review-wrap">
+            <div class="review-copy">
+              <span class="eyebrow">Customer love</span>
+              <h2>People keep coming back for the feeling.</h2>
+              <p>
+                “The product quality is outstanding and the storefront feels more like a premium showroom than a regular online shop.”
+              </p>
+              <div class="customer-meta">
+                <strong>Maria H.</strong>
+                <span>Verified buyer</span>
+              </div>
+            </div>
+
+            <div class="review-visual">
+              <div class="review-bubble">
+                <span class="small-label">4.9 average</span>
+                <strong>12,420+</strong>
+                <p>Reviews across tech, home, and lifestyle essentials.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="support" class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <div class="brand-block footer-brand">
+              <div class="brand-mark">N</div>
+              <span>NovaCart</span>
+            </div>
+            <p>Elevated essentials for everyday living.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#shop">Shop</a>
+            <a href="#features">Features</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#support">Support</a>
+          </div>
+
+          <div class="newsletter-box">
+            <label for="newsletter">Get product drops</label>
+            <div class="newsletter-row">
+              <input id="newsletter" type="email" placeholder="Your email" />
+              <button>Join</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a
+
+
+
+
+
+
+
+
+
